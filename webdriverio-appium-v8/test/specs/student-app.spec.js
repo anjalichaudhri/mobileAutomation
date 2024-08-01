@@ -1,4 +1,4 @@
-describe('GS Baby App', () => {
+describe('GS Student App', () => {
     it('Find element by accessibility id', async () => {
         await driver.pause(1000);
         await $('~LoginEmailPhone').sendKeys("anjalistu2023@yopmail.com");        
